@@ -1,0 +1,4 @@
+(executable
+ (public_name automates_ocaml)
+ (name main)
+ (libraries automates_ocaml))

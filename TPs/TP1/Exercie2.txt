@@ -1,0 +1,5 @@
+grep -E '([aeiuoAEIOU])(.*\1){14,}' swann.txt
+grep -E '(\<([[:upper:]]|[[:lower:]]){10,}\>) (.*\1){1,}' swann.txt
+grep -E '^(\<.*\>).*\<\1\>$' swann.txt
+grep -E '\<(\w)(\w)(\w)\>.*\<\3\2\1\>' swann.txt 
+

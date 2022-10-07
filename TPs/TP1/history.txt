@@ -1,0 +1,1000 @@
+   79  python game.py 
+   80  python game.py 
+   81  ls
+   82  ls __pycache__/
+   83  python game.py 
+   84  python game.py 
+   85  python game.py 
+   86  python game.py 
+   87  python game.py 
+   88  python game.py 
+   89  python game.py 
+   90  python game.py 
+   91  python game.py 
+   92  python game.py 
+   93  python game.py 
+   94  python game.py 
+   95  python game.py 
+   96  ls
+   97  python game.py 
+   98  python game.py 
+   99  python game.py 
+  100  python game.py 
+  101  python game.py 
+  102  python game.py 
+  103  python game.py 
+  104  python game.py 
+  105  python game.py 
+  106  python game.py 
+  107  python game.py 
+  108  python game.py 
+  109  python game.py 
+  110  python game.py 
+  111  python game.py 
+  112  python game.py 
+  113  python game.py 
+  114  python game.py 
+  115  python game.py 
+  116  python game.py 
+  117  python game.py 
+  118  python game.py 
+  119  python game.py 
+  120  python game.py 
+  121  python game.py 
+  122  python game.py 
+  123  python game.py 
+  124  python game.py 
+  125  python game.py 
+  126  python game.py 
+  127  python game.py 
+  128  anaconda-navigator 
+  129  cd Downloads/
+  130  mv 1712.01815v1.pdf AlphaGo.pdf
+  131  anaconda-navigator 
+  132  cd Documents/Archivos/A-Z/Curso_AI/Tic-tac-toe/
+  133  ls
+  134  python game.py 
+  135  python game.py 
+  136  python game.py 
+  137  python game.py 
+  138  python game.py 
+  139  python game.py 
+  140  python game.py 
+  141  python game.py 
+  142  python game.py 
+  143  python game.py 
+  144  python game.py 
+  145  python game.py 
+  146  python game.py 
+  147  python game.py 
+  148  python game.py 
+  149  python game.py 
+  150  python game.py 
+  151  python game.py 
+  152  python game.py 
+  153  python game.py 
+  154  python game.py 
+  155  python game.py 
+  156  python game.py 
+  157  python game.py 
+  158  python game.py 
+  159  ytmp3 https://youtu.be/493R05ifNsI
+  160  ls
+  161  cd Downloads/
+  162  ls
+  163  chmod +x forge-1.18.2-40.1.0-installer.jar 
+  164  java -jar forge-1.18.2-40.1.0-installer
+  165  java --jar forge-1.18.2-40.1.0-installer
+  166  ls
+  167  ./forge-1.18.2-40.1.0-installer.jar
+  168  java forge-1.18.2-40.1.0-installer.jar
+  169  java --jar forge-1.18.2-40.1.0-installer.jar
+  170  java -jar forge-1.18.2-40.1.0-installer.jar
+  171  cd Downloads/
+  172  java -jar forge-1.18.2-40.1.0-installer.jar
+  173  java -jar forge-1.18.2-40.1.52-installer.jar 
+  174  ytmp3 https://www.youtube.com/watch?v=rqXiWqPrCj0
+  175  ls
+  176  ls
+  177  ytmp3 https://www.youtube.com/watch?v=eILyGycXGWs
+  178  sudo swapon --show
+  179  cd ..
+  180  ls
+  181  sudo swapoff -a
+  182  sudo dd if=/dev/zero of=/swapfile bs=1G count=8
+  183  sudo mkswap /swapfile
+  184  sudo swapon /swapfile
+  185  grep SwapTotal /proc/meminfo
+  186  ytmp3 https://www.youtube.com/watch?v=1kkvep5AYfc
+  187  printenv > /tmp/tmp-73208PzH3wseVoyc1txt
+  188  cd         print(data)
+  189  cd /Documents/Archivos/Programas
+  190  cd Documents/Archivos/Programas
+  191  ls
+  192  python crypto.py 
+  193  bc
+  194  "hi i am john and this is a random text with no periods or capitals or commas this is just simply a random text with no hard words that many find challenging to type in due to the unusual order of the letters so i thought id just keep it easy thought thought thought thought thats a easy word to type depending on youre your highest wpm rank" | tr -d " "
+  195  'hi i am john and this is a random text with no periods or capitals or commas this is just simply a random text with no hard words that many find challenging to type in due to the unusual order of the letters so i thought id just keep it easy thought thought thought thought thats a easy word to type depending on youre your highest wpm rank' | tr -d " "
+  196  echo 'hi i am john and this is a random text with no periods or capitals or commas this is just simply a random text with no hard words that many find challenging to type in due to the unusual order of the letters so i thought id just keep it easy thought thought thought thought thats a easy word to type depending on youre your highest wpm rank' | tr -d " "
+  197  clear
+  198  $text_deoce = "BT JPX RMLX PCUV AMLX ICVJP IBTWXVR CI M LMT’R PMTN, MTN YVCJX CDXV MWMBTRJ JPX AMTNGXRJBAH UQCT JPX QGMRJXV CI JPX YMGG CI JPX HBTW’R QMGMAX; MTN JPX HBTW RMY JPX QMVJ CI JPX PMTN JPMJ YVCJX. JPXT JPX HBTW’R ACUTJXTMTAX YMR APMTWXN, MTN PBR JPCUWPJR JVCUFGXN PBL, RC JPMJ JPX SCBTJR CI PBR GCBTR YXVX GCCRXN, MTN PBR HTXXR RLCJX CTX MWMBTRJ MTCJPXV. JPX HBTW AVBXN MGCUN JC FVBTW BT JPX MRJVCGCWXVR, JPX APMGNXMTR, MTN JPX RCCJPRMEXVR. MTN JPX HBTW RQMHX, MTN RMBN JC JPX YBRX LXT CI FMFEGCT, YPCRCXDXV RPMGG VXMN JPBR YVBJBTW, MTN RPCY LX JPX BTJXVQVXJMJBCT JPXVXCI, RPMGG FX AGCJPXN YBJP RAM"
+  199  text_deoce="BT JPX RMLX PCUV AMLX ICVJP IBTWXVR CI M LMT’R PMTN, MTN YVCJX CDXV MWMBTRJ JPX AMTNGXRJBAH UQCT JPX QGMRJXV CI JPX YMGG CI JPX HBTW’R QMGMAX; MTN JPX HBTW RMY JPX QMVJ CI JPX PMTN JPMJ YVCJX. JPXT JPX HBTW’R ACUTJXTMTAX YMR APMTWXN, MTN PBR JPCUWPJR JVCUFGXN PBL, RC JPMJ JPX SCBTJR CI PBR GCBTR YXVX GCCRXN, MTN PBR HTXXR RLCJX CTX MWMBTRJ MTCJPXV. JPX HBTW AVBXN MGCUN JC FVBTW BT JPX MRJVCGCWXVR, JPX APMGNXMTR, MTN JPX RCCJPRMEXVR. MTN JPX HBTW RQMHX, MTN RMBN JC JPX YBRX LXT CI FMFEGCT, YPCRCXDXV RPMGG VXMN JPBR YVBJBTW, MTN RPCY LX JPX BTJXVQVXJMJBCT JPXVXCI, RPMGG FX AGCJPXN YBJP RAM"
+  200  echo $text_decode | tr "t" "e"
+  201  echo $text_decode | tr "t" "e" | eco
+  202  echo $text_decode | tr "t" "e" | echo
+  203  echo $text_decode | tr "T" "e" | echo
+  204  echo $text_decod
+  205  echo $text_deoce | tr "T" "e" | echo
+  206  echo $text_deoce 
+  207  echo $text_deoce | tr "T" "e"
+  208  echo $text_deoce | tr "TOH" "eta"
+  209  echo $text_deoce | tr "TOHR" "etas"
+  210  echo $text_deoce | tr "X" "e"
+  211  echo $text_deoce | tr "XJMPTR" "eariot"
+  212  clear
+  213  echo $text_deoce | tr "X" "e"
+  214  echo $text_deoce | tr "XR" "es"
+  215  echo $text_deoce | tr "XRJP" "estj"
+  216  echo $text_deoce | tr "XRJP" "esth"
+  217  echo $text_deoce | tr "XRJPT" "esthy"
+  218  echo $text_deoce | tr "XRJPTB" "esthyb"
+  219  echo $text_deoce | tr "XRJPTBF" "esthybw"
+  220  echo $text_deoce | tr "XRJPTBF" "esthyiw"
+  221  neofetch
+  222  cmatrix
+  223  sudo apt install cmatrix
+  224  cmatrix
+  225  python
+  226  anaconda-navigator 
+  227  echo  K Q O W E F V J P U J U U N U K G L M E K J I
+  228  vim tmp
+  229  echo tmp | tr -d " " "\d"
+  230  echo tmp | tr -d " " 
+  231  cat tmp | tr -d " " 
+  232  cat tmp | tr -d " " | 
+  233  vim text
+  234  clear
+  235  cat text | grep WXIZA
+  236  clear
+  237  vim tmp2
+  238  vim temp3
+  239  cat temp3
+  240  cat temp3 | tr -d "\n." 
+  241  cat temp3 | tr -d "\n.,:;" 
+  242  cat temp3 | tr -d "\n,:;" | tr "." " " 
+  243  vim temp3
+  244  cat temp3 | tr -d "\n,:;" | tr "." " " 
+  245  vim temp3
+  246  cat " " | temp3
+  247  cat " " temp3
+  248  rm temp3
+  249  vim temp3
+  250  cat temp3 | tr -d "\n,:;" | tr "." " " 
+  251  cat temp3 | tr -d "\n,:;clear" | tr "." " " 
+  252  clear
+  253  ffmpeg -i Hada_de_fresa_80.mpga -ar 44100 -ab 128 -f mp3 audio-track.mp3
+  254  ffmpeg -i Hada_de_fresa_81.mpga -ar 44100 -f mp3 audio-track.mp3
+  255  vim convert.sh
+  256  cd Downloads/tmp/
+  257  ls
+  258  chmod +x convert.sh 
+  259  ./convert.sh 
+  260  vim convert.sh 
+  261  ./convert.sh 
+  262  cat /home/yago/My_scripts/change.sh 
+  263  vim convert.sh 
+  264  ./convert.sh 
+  265  ls
+  266  ls| wc
+  267  cat /home/yago/My_scripts/change.sh 
+  268  ls
+  269  cd Downloads/tmp/
+  270  ls
+  271  vim convert.sh 
+  272  ./convert.sh 
+  273  ls
+  274  ./convert.sh 
+  275  vim convert.sh 
+  276  ./convert.sh 
+  277  ls
+  278  mv /*mp3 ..
+  279  ls
+  280  mv *mp3 ..
+  281  ytmp3 https://www.youtube.com/watch?v=STbN7etMgss
+  282  pip install Pillow
+  283  pip install opencv-python
+  284  pip install pyzbar
+  285  mkdir Documents/Archivos/Programas/My_programs\(well-made\)/Biblioteca\ Program\ files/barcode
+  286  ls Documents/Archivos/Programas/My_programs\(well-made\)/
+  287  ls Documents/Archivos/Programas/My_programs\(well-made\)/Biblioteca\ Program\ files/barcode/barcode_getter.py 
+  288  python Documents/Archivos/Programas/My_programs\(well-made\)/Biblioteca\ Program\ files/barcode/barcode_getter.py 
+  289  conda install pyqt
+  290  python Documents/Archivos/Programas/My_programs\(well-made\)/Biblioteca\ Program\ files/barcode/barcode_getter.py 
+  291  anaconda-navigator 
+  292  pip install --upgrade opencv-python==4.3.0.36
+  293  pip uninstall opencv-python
+  294  pip install --upgrade opencv-python==4.3.0.36
+  295  anaconda-navigator 
+  296  pip install Pillow
+  297  pip install opencv-python==4.3.0.36
+  298  pip install pyzbar
+  299  cd Documents/Archivos/Programas/My_programs\(well-made\)/Biblioteca\ Program\ files/barcode/
+  300  ls
+  301  python barcode_getter.py 
+  302  python barcode_getter.py 
+  303  clear
+  304  python barcode_getter.py 
+  305  clear
+  306  python barcode_getter.py 
+  307  clear
+  308  clear
+  309  python barcode_getter.py 
+  310  python barcode_getter.py 
+  311  python barcode_getter.py 
+  312  python barcode_getter.py 
+  313  python barcode_getter.py 
+  314  python barcode_getter.py 
+  315  python barcode_getter.py 
+  316  python barcode_getter.py 
+  317  python barcode_getter.py 
+  318  python barcode_getter.py 
+  319  python barcode_getter.py 
+  320  anaconda-navigator 
+  321  python Documents/Archivos/Programas/My_programs\(well-made\)/Biblioteca\ Program\ files/barcode/barcode_getter.py 
+  322  sudo apt install sqliteman
+  323  sudo apt install sqlitebrowser
+  324  sqlitebrowser 
+  325  python Biblioteca1.0.py 
+  326  pip install pydrive
+  327  python Biblioteca1.0.py 
+  328  clear
+  329  top
+  330  touch test.txt
+  331  top
+  332  cd Documents/Archivos/Programas/My_programs\(well-made\)/
+  333  cd Biblioteca\ Program\ files/
+  334  ls
+  335  python Biblioteca1_1.py 
+  336  python
+  337  anaconda-navigator 
+  338  pip install isbnlib
+  339  coda install isbnlib
+  340  conda install isbnlib
+  341  conda install kivy
+  342  pip install kivy
+  343  cd Documents/Archivos/Programas/My_programs\(well-made\)/Biblioteca\ Program\ files/
+  344  ld
+  345  ld
+  346  ls
+  347  python Biblioteca1_1.py 
+  348  ls
+  349  clear
+  350  pip install pydub
+  351  ls
+  352  cd ..
+  353  ls
+  354  mv audio_cropper/
+  355  ls
+  356  cd audio_cropper/
+  357  ls
+  358  ytmp3 https://www.youtube.com/watch?v=_SBQvd6vY9s&t=1s
+  359  ls
+  360  ls
+  361  ls
+  362  cd ..
+  363  mv audio_cropper/
+  364  ls
+  365  cd audio_cropper/
+  366  ls
+  367  touch test.txt
+  368  python
+  369  ls
+  370  ytmp3 https://www.youtube.com/watch?v=_SBQvd6vY9s&t=1s
+  371  ls
+  372  anaconda-navigator 
+  373  python Biblioteca1.0.py 
+  374  python Biblioteca1.0\ .py 
+  375  ls
+  376  chmod +x NKitExtractionApp.exe 
+  377  ./NKitExtractionApp.exe 
+  378  wine NKitExtractionApp.exe 
+  379  wine NKitProcessingApp.exe 
+  380  chmod +x ConvertToISO.exe 
+  381  ./ConvertToISO.exe 
+  382  wine ConvertToISO.exe 
+  383  cd Wii-Backup-Fusion-master/
+  384  ls
+  385  qmake
+  386  make
+  387  make install (as root)
+  388  sudo make install
+  389  cd ..
+  390  ls
+  391  wget https://wit.wiimm.de/download/wit-v2.31a-r6005-x86_64.tar.gz
+  392  tar -xvzf wit-v2.31a-r6005-x86_64.tar.gz
+  393  ls
+  394  tar -xvzf wit-v2.31a-r6005-x86_64.tar.gz
+  395  tar -xvf wit-v2.31a-r6005-x86_64.tar.gz
+  396  os
+  397  ls
+  398  lsblk
+  399  sudo dd if=/dev/zero of=/dev/mmcblk0 bs=4096 status=progress
+  400  sblk
+  401  lsblk
+  402  dmesg
+  403  clear
+  404  lsblk
+  405  ls /dev/
+  406  sudo parted /dev/mmcblk0 --script -- mklabel msdos
+  407  ls
+  408  lsblk
+  409  sudo fdisk -l
+  410  sudo fdisk /dev/mmcblk0
+  411  ls
+  412  mono ConvertToISO.exe 
+  413  mono ConvertToISO.exe /home/yago/.var/app/org.libretro.RetroArch/config/retroarch/downloads/WII/Super\ Mario\ Galaxy\ \(USA\)\ \(En\,Fr\,Es\).nkit.iso 
+  414  mono ConvertToISO.exe /home/yago/.var/app/org.libretro.RetroArch/config/retroarch/downloads/WII/Super\ Mario\ Galaxy\ \(USA\)\ \(En\,Fr\,Es\).nkit 
+  415  mono ConvertToISO.exe /home/yago/.var/app/org.libretro.RetroArch/config/retroarch/downloads/WII/Little\ King\'s\ Story\ \(USA\)\ \(En\,Fr\,Es\).nkit.iso 
+  416  clear
+  417  $ sudo apt-add-repository ppa:dolphin-emu/ppa
+  418  sudo apt update
+  419  ls
+  420  sudo snap install dolphin-emulator
+  421  dolphin-emulator.dolphin-emu
+  422  ls
+  423  cd Software/NKit_v1.4/
+  424  nano ConvertToISO.exe 
+  425  cd Software/NKit_v1.4/
+  426  mono ConvertToISO.exe 
+  427  mono ConvertToNKit.exe 
+  428  mono ConvertToNKit.exe /home/yago/Downloads/treating\ roms/Legend\ of\ Zelda\,\ The\ -\ The\ Wind\ Waker\ \(USA\).iso 
+  429  ls Processed/
+  430  ls Processed/GameCube_MatchFail/
+  431  ls Processed/Temp/
+  432  mono NKitProcessingApp.exe 
+  433  mono NKitExtractionApp.exe 
+  434  mono NKitProcessingApp.exe 
+  435  mono ConvertToISO.exe ./Processed/Temp/Super\ Mario\ Galaxy\ \(USA\)\ \(En\,Fr\,Es\).nkit.iso 
+  436  top
+  437  ls
+  438  clear
+  439  ps
+  440  pgrep
+  441  pgrep vlc
+  442  kill -7 556825
+  443  ps
+  444  pall
+  445  ps -a
+  446  ps -A
+  447  killall vcl
+  448  mono ConvertToISO.exe /home/yago/Downloads/treating\ roms/Sims\ 3\,\ The\ \(USA\)\ \(En\,Fr\,Es\).nkit.iso 
+  449  ls
+  450  ls Recovery/Redump/Wii/
+  451  mono ConvertToISO.exe /home/yago/Downloads/treating\ roms/Sims\ 3\,\ The\ \(USA\)\ \(En\,Fr\,Es\).nkit.iso 
+  452  cd ..
+  453  ls
+  454  cd NKit\ 2020.4.29/
+  455  ls
+  456  mono ConvertToISO.exe /home/yago/Downloads/treating\ roms/Sims\ 3\,\ The\ \(USA\)\ \(En\,Fr\,Es\).nkit.iso 
+  457  mono ConvertToISO.exe /home/yago/Downloads/treating\ roms/Super\ Mario\ Galaxy\ \(USA\)\ \(En\,Fr\,Es\).nkit.iso 
+  458  mono NKitExtractionApp.exe 
+  459  mono NKitProcessingApp.exe 
+  460  mono RecoverToISO.exe /home/yago/Downloads/treating\ roms/Super\ Mario\ Galaxy\ \(USA\)\ \(En\,Fr\,Es\).nkit.iso 
+  461  mono ConvertToISO.exe /home/yago/Downloads/treating\ roms/Super\ Mario\ Galaxy\ \(USA\)\ \(En\,Fr\,Es\).nkit.iso 
+  462  sudo apt install deluge
+  463  deluge
+  464  ls
+  465  cd home/yago/Software/
+  466  ls
+  467  cd NKit\ 2020.4.29/
+  468  ls
+  469  mono ConvertToISO.exe /home/yago/Downloads/treating\ roms/Super\ Mario\ Galaxy.nkit.iso 
+  470  cd /home/yago/Downloads/treating
+  471  top
+  472  killall dolphin
+  473  pgrep dolphin
+  474  kill -7 610683
+  475  cd Downloads/NKit\ 2020.4.29/Dats/GameTdb/
+  476  ls
+  477  vim rename.py
+  478  python rename.py 
+  479  vim rename.py
+  480  python rename.py 
+  481  vim rename.py
+  482  python rename.py 
+  483  cat output.txt 
+  484  clear
+  485  vim rename.py
+  486  python rename.py 
+  487  cat output.txt 
+  488  python rename.py 
+  489  vim rename.py
+  490  python rename.py 
+  491  python
+  492  ytmp3 https://www.youtube.com/watch?v=_SBQvd6vY9s
+  493  pip install pydub
+  494  anaconda-navigator 
+  495  cd Documents/Archivos/Programas/My_programs\(well-made\)/audio_cropper/
+  496  ls
+  497  python yt_audio_cropper.py 
+  498  python yt_audio_cropper.py 
+  499  python yt_audio_cropper.py 
+  500  python yt_audio_cropper.py 
+  501  apt-remove chrome
+  502  apt remove chrome
+  503  apt-get git
+  504  apt install git
+  505  clear
+  506  ls
+  507  mkdir git_test
+  508  cd git_test
+  509  git init
+  510  ls -la
+  511  touch index.html
+  512  git config --global user.name "Yago Iglesias"
+  513  git config --global user.email yago.iglesias-vazquez@etu.u-paris.fr
+  514  ytmp3 https://youtu.be/SlPhMPnQ58k
+  515  ytmp3 https://youtu.be/kRl34UYH378
+  516  ssh-keygen 
+  517  cat .ssh/id_rsa.pub 
+  518  cd Documents/l2_math-info/s1/pre-pro/
+  519  ls
+  520  git clone git@gaufre.informatique.univ-paris-diderot.fr:cproj2022/pong.git
+  521  ls
+  522  cd pong/
+  523  ls
+  524  cat readme.md 
+  525  ./gradle build
+  526  ls
+  527  ls gradle
+  528  java --version
+  529  ./gradlew build
+  530  clear
+  531  cat readme.md 
+  532  ./gradlew run
+  533  ls
+  534  ls build
+  535  ls build/classes/
+  536  ls build/classes/java/
+  537  ls build/classes/java/main/
+  538  ls build/classes/java/main/gui/
+  539  cat  build/classes/java/main/gui/App\$1Player.class 
+  540  cat src/main/java/gui/App.java 
+  541  cat .bashrc 
+  542  bc
+  543  sudo mv Downloads/tengwar_annatar /usr/share/texmf/fonts/
+  544  cd Documents/l2_math-info/s1/pre-pro/
+  545  ls
+  546  cd pong/
+  547  ls
+  548  ./gradle run
+  549  ./gradlew run
+  550  history
+  551  java --version
+  552  neofetch
+  553  cd Documents/l2_math-info/s1/pre-pro/pong/
+  554  git pull
+  555  ./gredlew run
+  556  ./gradlew run
+  557  ping gaufre.informatique.univ-paris.fr
+  558  ping -t "gaufre.informatique.univ-paris.fr"
+  559  ping -t "gaufre.informatique.univ-paris-diderot.fr"
+  560  ping -t "gaufre.informatique.univ.paris-diderot.fr"
+  561  ping -t gaufre.informatique.univ-paris-diderot.fr
+  562  ping -t "gaufre.informatique.univ-paris-diderot.fr"
+  563  cd Documents/l2_math-info/s1/POO/
+  564  ls
+  565  mkdir TP1
+  566  X /usr/bin/env /usr/lib/jvm/java-11-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:37181 -cp /tmp/vscodesws_8d40f/jdt_ws/jdt.ls-java-project/bin Exercice_4 
+  567  4
+  568  ls
+  569  mv Exercice_1.java Documents/l2_math-info/s1/POO/TP1
+  570  cd  Documents/l2_math-info/s1/POO/TP1
+  571  ls
+  572  javac Exercice_3.java 
+  573  java Exercice_3 Portez ce vieux whisky au juge blond qui fume
+  574  ar -cvf IglesiasVazquezYago.tar . 
+  575  ls
+  576  tar -cvf IglesiasVazquezYago.tar . 
+  577  ls
+  578  tar -cvf IglesiasVazquezYago.tar Combat.java Exercice_1.java Exercice_2.java Exercice_3.java Exercice_4.java Informations.java Personnage.java 
+  579  ls
+  580  cd Documents/l2_math-info/s1/POO/
+  581  ls
+  582  mkdir TPs
+  583  mkdir TDs
+  584  mv TP1/ TPs/
+  585  cd TD
+  586  ls
+  587  cd TDs
+  588  ls
+  589  vim email_td.txt
+  590  ls
+  591  mkdir TD1
+  592  cd TD1
+  593  ls
+  594  cd Documents/l2_math-info/s1/POO/TDs/TD1/
+  595  ls
+  596  cat Exercice_1.java 
+  597  cat Exercice_1.jsvs 
+  598  mv Exercice_1.jsvs /Documents/l2_math-info/s1/POO/TDs/TD1/Exercice_1.java
+  599  mv Exercice_1.jsvs /Documents/l2_math-info/s1/POO/TDs/TD1/
+  600  mv Exercice_1.jsvs :/Documents/l2_math-info/s1/POO/TDs/TD1/Exercice_1.java
+  601  mv Exercice_1.jsvs Documents/l2_math-info/s1/POO/TDs/TD1/Exercice_1.java
+  602  cd ./Documents/l2_math-info/s1/POO/TDs/TD1
+  603  clear
+  604  cat .bashrc 
+  605  cd Documents/l2_math-info/s1/POO/TDs/TD1/
+  606  ls
+  607  javac A.java 
+  608  ls
+  609  mkdir Scrbble
+  610  cd Scrbble/
+  611  mv Jueur.java Joueur.java
+  612  history
+  613  tar -cvf IglesiasVazquezYago.tar Combat.java Exercice_1.java Exercice_2.java Exercice_3.java Exercice_4.java Informations.java Personnage.java
+  614  ls
+  615  rm IglesiasVazquezYago.tar 
+  616  ls
+  617  cd Documents/l2_math-info/s1/POO/TPs/TP1/
+  618  tar -cvf IglesiasVazquezYago.tar Combat.java Exercice_1.java Exercice_2.java Exercice_3.java Exercice_4.java Informations.java Personnage.java
+  619  ls
+  620  cd stable-diffusion-ui/
+  621  ls
+  622  cd installer/
+  623  ls
+  624  cd ..
+  625  ls
+  626  cd ..
+  627  ls
+  628  cd stable-diffusion-ui/
+  629  ls
+  630  bash start.sh
+  631  cd installer/
+  632  ls
+  633  ls bin/
+  634  ls 
+  635  ls include/
+  636  ls bin/ grep .sh
+  637  ls bin/ grep -E .sh
+  638  ls bin/ egrep .sh
+  639  ls bin/ egrep sh
+  640  ls bin/ egrep *sh
+  641  ls bin/ egrep start
+  642  ls bin| egrep start
+  643  ls bin| egrep sh
+  644  bash start.sh 
+  645  nano .bashrc
+  646  sudo apt-get install default-jdk 18
+  647  sudo apt-get install default-jdk 18.0
+  648  sudo apt-get install default-jre
+  649  java --version
+  650  echo $JDK_PATH
+  651  echo $JAVA_HOME
+  652  echo $JDK_HOME
+  653  update-alternatives — config java
+  654  update-alternatives config java
+  655  update-alternatives -config java
+  656  update-alternatives --config jva
+  657  update-alternatives --config java
+  658  javapath=$( readlink --canonicalize /usr/bin/java)
+  659  removebin="/bin/java"
+  660  removejre="/jre"
+  661  javapath2=${javapath/$removebin/}
+  662  export JAVA_HOME=${javapath2/$removejre/}
+  663  echo $JAVA_HOME
+  664  java --version
+  665  sudo update-alternatives --config java
+  666  sudo apt-get install default-jdk 18.0
+  667  ls /usr/lib/jvm/
+  668  ls /usr/lib/jvm/jdk-18/bin/java
+  669  sudo update-alternatives --config java
+  670  java --version
+  671  sudo update-alternatives --config java
+  672  java --version
+  673  cd ..
+  674  cd yago/Documents/l2_math-info/s1/pre-pro/
+  675  ls
+  676  cd pong/
+  677  ls
+  678  git pull
+  679  ./gradlew build
+  680  ./gradlew run
+  681  java --version
+  682  sudo apt update && sudo apt upgrade -y
+  683  sudo apt install default-jdk
+  684  sudo apt install openjdk-18-jdk
+  685  sudo apt install openjdk-18.0-jdk
+  686  sudo apt update && sudo apt upgrade -y
+  687  apt-cache search openjdk
+  688  sudo apt update
+  689  sudo apt install -y curl wget
+  690  curl -O https://download.java.net/java/GA/jdk18/43f95e8614114aeaa8e8a5fcf20a682d/36/GPL/openjdk-18_linux-x64_bin.tar.gz
+  691  tar xvf openjdk-18_linux-x64_bin.tar.gz
+  692  sudo mv jdk-18 /opt/
+  693  sudo tee /etc/profile.d/jdk18.sh <<EOF
+  694  export JAVA_HOME=/opt/jdk-18
+  695  export PATH=\$PATH:\$JAVA_HOME/bin
+  696  EOF
+  697  source /etc/profile.d/jdk18.sh
+  698  $ echo $JAVA_HOME
+  699  echo $JAVA_HOME
+  700  java --version
+  701  update-alternatives -config java
+  702  update-alternatives --config java
+  703  sudo apt update
+  704  sudo apt -y install wget curl
+  705  wget https://download.oracle.com/java/18/latest/jdk-18_linux-x64_bin.deb
+  706  sudo apt install ./jdk-18_linux-x64_bin.deb
+  707  cat <<EOF | sudo tee /etc/profile.d/jdk18.sh
+  708  export JAVA_HOME=/usr/lib/jvm/jdk-18
+  709  export PATH=\$PATH:\$JAVA_HOME/bin
+  710  EOF
+  711  source /etc/profile.d/jdk18.sh
+  712  java -version
+  713  update-alternatives --config java
+  714  sudo apt-get remove --auto-remove openjdk*
+  715  sudo apt-get remove openjdk*
+  716  sudo apt remove openjdk*
+  717  sudo apt purge openjdk*
+  718  java --version
+  719  ls /opt/jdk-18/
+  720  ls /etc/profile.d/jdk18.sh 
+  721  echo $JAVA_HOME
+  722  update-alternatives --install /usr/lib/jvm/jdk-18/bin/java
+  723  update-alternatives --install /usr/bin/javac jvac /opt/jdk-18/bin/javac 
+  724  update-alternatives --install /usr/bin/javac jvac /opt/jdk-18/bin/javac  1
+  725  update-alternatives --install /usr/bin/javac javac /opt/jdk-18/bin/javac  1
+  726  sudo update-alternatives --install /usr/bin/javac javac /opt/jdk-18/bin/javac  1
+  727  update-alternatives --install /usr/bin/java java /opt/jdk-18/bin/java 
+  728  update-alternatives --install /usr/bin/java java /opt/jdk-18/bin/java 1
+  729  sudo update-alternatives --install /usr/bin/java java /opt/jdk-18/bin/java 1
+  730  echo $JAVA_HOME
+  731  cat .bashrc
+  732  cd Documents/l2_math-info/s1/pre-pro/pong/
+  733  ls
+  734  git pull
+  735  ./gradle build
+  736  ./gradlew build
+  737  ./gradlew run
+  738  (base) yago@yago-14Z980-G-AA52B:~$ echo $JAVA_HOME
+  739  java --version
+  740  clear
+  741  ./gradlew run
+  742  cd Documents/l2_math-info/s1/pre-pro/
+  743  ls
+  744  rm -r pong/
+  745  y
+  746  clear
+  747  ls
+  748  ls Books/
+  749  clear
+  750  git config --list
+  751  git pull
+  752  git config --list
+  753  git remote set-url origin https://gaufre.informatique.univ-paris-diderot.fr/tsoan/pong.git
+  754  git pull
+  755  git pull
+  756  git commit
+  757  git push
+  758  neofetch
+  759  clear
+  760  whereis javac
+  761  uname -a
+  762  java --version
+  763  lsb_release -a
+  764  update-alternatives 
+  765  update-alternatives --list java
+  766  update-alternatives java
+  767  git pull
+  768  git push
+  769  ls -a
+  770  ls
+  771  git sttus
+  772  git status
+  773  git remote show origin
+  774  git checkout develop
+  775  git remote show origin
+  776  git push origin develop
+  777  git checkout origin/
+  778  git checkout origin
+  779  git checkout develop
+  780  cd Documents/l2_math-info/s1
+  781  ls
+  782  cd pre-pro
+  783  ls
+  784  clear
+  785  ls
+  786  git clone git@gaufre.informatique.univ-paris-diderot.fr:tsoan/pong.git
+  787  ls
+  788  cd pom
+  789  cd pong/
+  790  ls
+  791  ./gredlew build
+  792  ./gradlew build
+  793  ./gradlew run
+  794  ls
+  795  clear
+  796  ./gradlew ru
+  797  apt list openjdk
+  798  sudo apt install openjdk-17-jdk
+  799  sudo apt install openjdk-17-source 
+  800  update-alternatives --list java
+  801  update-alternatives --set
+  802  update-alternatives --set java
+  803  update-alternatives --config java
+  804  sudo update-alternatives --config java
+  805  java --version
+  806  cd Documents/l2_math-info/s1/pre-pro/pong/
+  807  ./gradlew build
+  808  ./gradlew run
+  809  git pull
+  810  ls
+  811  ./gradlew run
+  812  git fecth
+  813  git fetch
+  814  git fecth
+  815  git fetch
+  816  git status
+  817  git checkout develop
+  818  git checkout -b ball_physic
+  819  git status
+  820  vim .gitignore
+  821  git status
+  822  cd Documents/l2_math-info/s1/pre-pro/pong/
+  823  ls
+  824  clear
+  825  ./gradlew build
+  826  ./gradlew run
+  827  git sttus
+  828  git status
+  829  git push origin ball_physic
+  830  git status
+  831  cd Documents/l2_math-info/s1/pre-pro/
+  832  cd pong
+  833  ./gradlew run
+  834  mkdi Documents/l2_math-info/s1/POO/TPs/TP2
+  835  mkdir Documents/l2_math-info/s1/POO/TPs/TP2
+  836  cd ..
+  837  cd POO/TPs/TP2
+  838  cd POO/TPs/TP2 cd /home/yago/Documents/l2_math-info/s1/pre-pro/pong ; /usr/bin/env /usr/lib/jvm/jdk-18/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:44965 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /home/yago/.config/Code/User/workspaceStorage/99a9311e91bdad5dffdfedd4e9ae20a7/redhat.java/jdt_ws/jdt.ls-java-project/bin Lanceur 
+  839  cd POO/TPs/TP2 cd /home/yago/Documents/l2_math-info/s1/pre-pro/pong ; /usr/bin/env /usr/lib/jvm/jdk-18/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:44965 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /home/yago/.config/Code/User/workspaceStorage/99a9311e91bdad5dffdfedd4e9ae20a7/redhat.java/jdt_ws/jdt.ls-java-project/bin Lanceur  cd /home/yago/Documents/l2_math-info/s1/pre-pro/pong ; /usr/bin/env /usr/lib/jvm/jdk-18/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:35045 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /home/yago/.config/Code/User/workspaceStorage/99a9311e91bdad5dffdfedd4e9ae20a7/redhat.java/jdt_ws/jdt.ls-java-project/bin Lanceur 
+  840  cd ..
+  841  cd POO
+  842  cd TPs/TP2
+  843  javac Plateau.java 
+  844  javac Lanceur.java 
+  845  tar -cvf IglesiasVazquezYago Lanceur.java Plateau.java 
+  846  cd Documents/l2_math-info/s1/pre-pro/pong/
+  847  ./gradlew run
+  848  jshell
+  849  cd Documents/l2_math-info/s1/POO/TPs/TP2/
+  850  ls
+  851  tar -cvf IglesiasVazquezYago.tar Lanceur.java Plateau.java 
+  852  javac Plateau.java 
+  853  javac Lanceur.java 
+  854  java Lanceur 
+  855  javac Lanceur.java | head
+  856  javac Lanceur.java | head 100
+  857  javac Lanceur.java | head -100
+  858  java Lanceur.java | head -100
+  859  java Lanceur.java | head -200
+  860  javac Lanceur.java | head -100
+  861  java Lanceur.java | head -200
+  862  javc Plateau.java | head -120
+  863  javac Plateau.java | head -120
+  864  java Lanceur.java | head -120
+  865  java Lanceur.java | head -140
+  866  cd Documents/l2_math-info/s1/pre-pro/pong/
+  867  ./gradlew run
+  868  jshell
+  869  clear
+  870  ./gradlew run
+  871  git status
+  872  git push
+  873  git checkout develop 
+  874  .gradlew run
+  875  bash .gradlew run
+  876  ls
+  877  bash gradlew run
+  878  git fecth
+  879  git fetch
+  880  git pull
+  881  git status
+  882  bash gradlew run
+  883  ls src/main/java/gui/
+  884  git pull
+  885  checkout origin/develop
+  886  git checkout origin/develop
+  887  git checkout develop
+  888  ls src/main/java/gui/
+  889  cd Documents/l2_math-info/s1/pre-pro/pong/
+  890  git pull
+  891  ./gradlew run
+  892  cd src/main/java/gui/
+  893  ls
+  894  cd ..
+  895  git pull
+  896  git status
+  897  ls src/main/java/gui/
+  898  cd Documents/l2_math-info/s1/POO/TDs
+  899  mkdir TD2
+  900  cd TD2
+  901  ls
+  902  cd Documents/l2_math-info/s1/pre-pro/pong/
+  903  ls src/main/java/gui/
+  904  git pull
+  905  git status
+  906  git pull origin develop
+  907  git log
+  908  git log -v
+  909  git log -h
+  910  git log --source
+  911  ls src/main/java/model/
+  912  git checkout ball_physic 
+  913  ls src/main/java/model/
+  914  git checkout develop 
+  915  ls src/main/java/gui/
+  916  ls src/main/java/model/
+  917  ls src/main/java/
+  918  ls
+  919  .gradlew run
+  920  gradlew run
+  921  bash gradlew run
+  922  ls Images/
+  923  bash gradlew run
+  924  ytmp3 https://www.youtube.com/watch?v=zmVlG1l2dj0
+  925  ls
+  926  cd Documents/l2_math-info/s1/Automates/
+  927  ls
+  928  mkdir TPs
+  929  cd TPs/
+  930  ls
+  931  clear
+  932  mkdir TP1
+  933  ls
+  934  clear
+  935  grep -E 'Odette'
+  936  cd TP1/
+  937  grep -E 'Odette' swann.txt 
+  938  grep -E 'Odette' swann.txt > Exercice1_1.txt
+  939  grep -Ec 'Odette' swann.txt
+  940  cat Exercice1_1.txt 
+  941  grep -Ec 'Odette' swann.txt >Exercice1_2.txt
+  942  grep -Ec 'Gilberte' swann.txt >Exercice1_3.txt
+  943  grep -Eo 'Gilberte' swann.txt 
+  944  grep -Eoc 'Gilberte' swann.txt 
+  945  grep -Eo 'Gilberte' swann.txt | wc -l 
+  946  grep -Eo 'Gilberte' swann.txt | wc 
+  947  grep -Eoc 'Gilberte' swann.txt 
+  948  grep -Eo 'Gilberte' swann.txt | wc -l > Exercice1_4.txt
+  949  cat Exercice1_3.txt |wc -l
+  950  cat Exercice1_3.txt 
+  951  grep -Eo 'Gilberte + Gilberte' swann.txt | wc -l > Exercice1_4.txt
+  952  grep -Eo 'Gilberte + Gilberte' swann.txt
+  953  grep -Eo 'Gilberte' swann.txt | wc -l > Exercice1_4.txt
+  954  grep -Eo 'Gilberte+
+  955  grep -Eo 'Gilberte+' swann.txt 
+  956  grep -Eo '(Gilberte)+' swann.txt 
+  957  grep -E '(Gilberte)+' swann.txt 
+  958  vim Exercice1_5.txt
+  959  clear
+  960  grep -E '[(Gilberte)(Odette)]' swann.txt 
+  961  grep -E 'Gilberte|Odette' swann.txt 
+  962  grep -E 'Gilberte|Odette' swann.txt > Exerciec1_6.txt
+  963  grep -E 'Gilberte|Odette' swann.txt | wc -l > Exerciec1_6.txt
+  964  grep -E 'Gilberte|Odette' swann.txt | wc -l 
+  965  vim Exercice1_7.txt
+  966  grep -E '\.' swann.txt 
+  967  grep -En '\.' swann.txt 
+  968  grep -Ec '\.' swann.txt 
+  969  grep -Ec '\+' swann.txt 
+  970  grep -Ec '+' swann.txt 
+  971  grep -E '+' swann.txt 
+  972  grep -E '\+' swann.txt 
+  973  grep -E '\?' swann.txt 
+  974  grep -Ec '\?' swann.txt 
+  975  grep -Ec '[:digit:]' swann.txt 
+  976  grep -Ec '[[:digit:]]' swann.txt 
+  977  grep -E '[[:digit:]]' swann.txt 
+  978  grep -E '[[:digit:]]' swann.txt > Exercice1_9,txt
+  979  grep -E 'z[[:lower:]]' swann.txt 
+  980  grep -E 'z[[:lower:]]' swann.txt > Exercice1_10.txt
+  981  grep -E 'z[[^:lower:]]' swann.txt > Exercice1_10.txt
+  982  grep -E 'z[[:lower:]]' swann.txt > Exercice1_10.txt
+  983  grep -E 'z[[^:lower:]]' swann.txt > Exercice1_11.txt
+  984  cat Exercice1_11.txt 
+  985  grep -E '\?$' swann.txt > Exercice1_12.txt
+  986  cat Exercice1_12.txt 
+  987  grep -E '^ab| \ ab' swann.txt > Exercice1_13.txt
+  988  cat Exercice1_13.txt 
+  989  grep -E '^Ab| \ ab' swann.txt > Exercice1_13.txt
+  990  cat Exercice1_13.txt 
+  991  grep -E '^ab| \ ab' swann.txt > Exercice1_13.txt
+  992  cat Exercice1_13.txt 
+  993  grep -E '(^ab)| \ ab' swann.txt > Exercice1_13.txt
+  994  cat Exercice1_13.txt 
+  995  grep -E '(^ab)| \ ab' swann.txt 
+  996  grep -E '(^ab)|(\ ab)' swann.txt 
+  997  grep -E '(^Ab)|(\ ab)' swann.txt 
+  998  grep -E '(^b)|(\ ab)' swann.txt 
+  999  grep -E '(^ab)|(\ ab)' swann.txt > Exercice1_13.txt 
+ 1000  grep -E '^«[^\»]' swann.txt > Exercice1_15.txt 
+ 1001  grep -E '^«[^\»]' swann.txt
+ 1002  grep -E '^«' swann.txt
+ 1003  grep -E '^«[^\»]' swann.txt
+ 1004  grep -E ',*,*,*,*,' swann.txt
+ 1005  grep -E ',,+,+,+,' swann.txt
+ 1006  grep -E ',+,+,+,+,' swann.txt
+ 1007  grep -E ',+[]*,+,+,+,' swann.txt
+ 1008  grep -E ',?*,?*,?*,?*,' swann.txt
+ 1009  grep -E ',?+,?+,?+,?+,' swann.txt
+ 1010  grep -E '«[^\»]' swann.txt
+ 1011  grep -E '«[^\»]' swann.txt > Exercice1_14.txt
+ 1012  grep -E ',.*,.*,.*,.*,' swann.txt
+ 1013  grep -E ',.*,.*,.*,.*,' swann.txt > Exercice1_16.txt
+ 1014  grep -E '([[:lower:]]|[[:upper:]]){17,}' swann.txt
+ 1015  grep -E0 '([[:lower:]]|[[:upper:]]){17,}' swann.txt
+ 1016  grep -Eo '([[:lower:]]|[[:upper:]]){17,}' swann.txt
+ 1017  grep -Eo '([[:lower:]]|[[:upper:]]){17,}' swann.txt > Exercice1_17.txt
+ 1018  grep -Ec '«[^\»]' swann.txt > Exercice1_14.txt
+ 1019  grep -Ec '^«[^\»]' swann.txt > Exercice1_15.txt 
+ 1020  cat Exercice1_14.txt 
+ 1021  cat Exercice1_15.txt 
+ 1022  grep -Ec '«.*[^\»]' swann.txt 
+ 1023  grep -E '«.*[^\»]' swann.txt
+ 1024  grep -E '«.*[^»]' swann.txt
+ 1025  grep -E '«[^»]*' swann.txt
+ 1026  grep -E '«[^»]*[^»]' swann.txt
+ 1027  grep -E '«[^»]*$' swann.txt
+ 1028  grep -Ec '«[^»]*$' swann.txt
+ 1029  grep -Ec '«[^»]*$' swann.txt > Exercice1_14.txt 
+ 1030  grep -Ec '^«[^»]*$' swann.txt 
+ 1031  grep -Ec '^«[^»]*$' swann.txt > Exercice1_15.txt 
+ 1032  grep -Ec '(\<[a-z]\>.* \<\1\>){15,}' swann.txt 
+ 1033  grep -Ec '(\<\w[a-z]\>.* \<\1\>){15,}' swann.txt 
+ 1034  grep -Ec '’\<(\w[aeiouAEIUO])\> \<\1\>’' swann.txt 
+ 1035  grep -Ec '’\<(\w[aeiouAEIUO])/\> \<\1\>’' swann.txt 
+ 1036  grep -Ec '[aeiouAEIUO]' swann.txt 
+ 1037  grep -Ec '\w[aeiouAEIUO]' swann.txt 
+ 1038  grep -Ec '\w[aeiouAEIUO]{15}' swann.txt 
+ 1039  grep -Ec '’\<(\w[aeiouAEIUO])/\>.*\<\1\>’' swann.txt 
+ 1040  grep -Ec '’\<(\wa)/\>.*\<\1\>’' swann.txt 
+ 1041* grep -Ec '’>' swann.txt 
+ 1042  grep -Ec '\<(\wa)/\>.*\<\1\>' swann.txt 
+ 1043  grep -E '\<(\w)(\w)(\w)(\w)\>.*\<\1\2\3\4\>' swann.txt
+ 1044  grep -E '\<(\w)\>.*\<\1>' swann.txt
+ 1045  grep -E '\<(\w)(\w)\>.*\<\1\2>' swann.txt
+ 1046  grep -E '\<(\w)(\w)(\w)\>.*\<\1\2\3>' swann.txt
+ 1047  grep -E '\<(\w)(\w)(\w)(\w)\>.*\<\1\2\3\4>' swann.txt
+ 1048  grep -E '\<(\w)(\w)(\w)\>.*\<\1\2\3\>' swann.txt
+ 1049  grep -E '\<(\w)\>.*\<\1\>' swann.txt
+ 1050  grep -E '\<(\w[aeiuo])\>.*\<\1\>' swann.txt
+ 1051  grep -E '\<(\w[aeiuoAEIOU])\>.*\<\1\>' swann.txt
+ 1052  grep -E '(\<(\w[aeiuoAEIOU])\>.*\<\1\>){2}' swann.txt
+ 1053  grep -E '(\<(\w[aeiuoAEIOU])\>.*\<\1\>)' swann.txt
+ 1054  grep -E '\<(\w[aeiuoAEIOU])\>.*\<\1\>' swann.txt
+ 1055  grep -E '\<(\w[aeiuoAEIOU])\>(.*\<\1\>)' swann.txt
+ 1056  grep -E '\<(\w[aeiuoAEIOU])\>(.*\<\1\>){14,}' swann.txt
+ 1057  grep -E '\<(\w[aeiuoAEIOU])\>(.*\<\1\>){2,}' swann.txt
+ 1058  grep -E '\<([aeiuoAEIOU])\>(.*\<\1\>){2,}' swann.txt
+ 1059  grep -E '\<(\w[aeiuoAEIOU])\>(.*\<\1\>){2}' swann.txt
+ 1060  grep -E '\<([aeiuoAEIOU])\>(.*\<\1\>)' swann.txt
+ 1061  grep -E '(\<([aeiuoAEIOU])\>.*\<\1\>)' swann.txt
+ 1062  grep -E '\<([aeiuoAEIOU])\>.*\<\1\>{2}' swann.txt
+ 1063  grep -E '\<([aeiuoAEIOU])\>.*\<\1\>{2,}' swann.txt
+ 1064  grep -E '\<([aeiuoAEIOU])\>.*\<\1\>' swann.txt
+ 1065  grep -E '\<(\w[aeiuoAEIOU])\>.*\<\1\>' swann.txt
+ 1066  grep -E '\<(\w[aeiuoAEIOU])\>(.*\<\1\>){17}' swann.txt
+ 1067  grep -E '\<(\w[aeiuoAEIOU])\>(.*\<\1\>){2}' swann.txt
+ 1068  grep -E '\<(\w[aeiuoAEIOU])\>.*(.*\<\1\>){2}' swann.txt
+ 1069  grep -E '\<(\w[aeiuoAEIOU])\>.*(.*\<\1\>){3}' swann.txt
+ 1070  grep -E '\<(\w[aeiuoAEIOU])\>.*(.*\<\1\>){3,}' swann.txt
+ 1071  grep -E '\<(\w[aeiuoAEIOU])\>.*(.*\<\1\>){15,}' swann.txt
+ 1072  grep -E '\<([aeiuoAEIOU])\>.*(.*\<\1\>){15,}' swann.txt
+ 1073  grep -E '\<([aeiuoAEIOU])\>.*(.*\<\1\>){2}' swann.txt
+ 1074  grep -E '\<([aeiuoAEIOU])\>.*(.*\<\1\>){1}' swann.txt
+ 1075  grep -E '\<([aeiuoAEIOU])\>.*(.*\<\1\>){2}' swann.txt
+ 1076  clear
+ 1077  history 
+ 1078  history > history.txt
