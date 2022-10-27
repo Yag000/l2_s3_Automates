@@ -7,13 +7,7 @@ public class Main {
 
         System.out.println("--------------------------");
         System.out.println("Exemple:");
-        // création d'un automate avec deux états pour a*b+
-        Automate a = new Automate(2);
-        a.ajouteTransition(0, 0, 'a');
-        a.ajouteTransition(0, 1, 'b');
-        a.ajouteTransition(1, 1, 'b');
-        a.setInitial(0, true);
-        a.setAcceptant(1, true);
+        Automate a = getAutomateAB();
 
         System.out.println(a);
         System.out.println(a.accepte(""));
@@ -90,13 +84,7 @@ public class Main {
     public static void testMiroir() {
         System.out.println("--------------------------");
         System.out.println("Test de l'automate miroir:");
-        // création d'un automate avec deux états pour a*b+
-        Automate a = new Automate(2);
-        a.ajouteTransition(0, 0, 'a');
-        a.ajouteTransition(0, 1, 'b');
-        a.ajouteTransition(1, 1, 'b');
-        a.setInitial(0, true);
-        a.setAcceptant(1, true);
+        Automate a = getAutomateAB();
         a = automateMiroir(a);
 
         System.out.println(a);
@@ -117,7 +105,8 @@ public class Main {
     // Calcul d'un automate correspondant à l'automate a1 complété
     public static Automate automateComplete(Automate a1) {
         int taille = a1.nbEtats();
-        Automate a2 = new Automate(taille + 1);
+        boolean isComplete = a1.estComplet();
+        Automate a2 = isComplete ? new Automate(taille) : new Automate(taille + 1);
 
         for (int i = 0; i < taille; ++i) {
             Etat e = a1.getEtat(i);
@@ -129,9 +118,8 @@ public class Main {
             // On copie les transitions
             for (char c : a1.alphabet()) {
                 if (e.alphabet().contains(c)) {
-                    for (int id : e.succ(c)) {
+                    for (int id : e.succ(c))
                         a2.ajouteTransition(e.getId(), id, c);
-                    }
                 } else {
                     a2.ajouteTransition(e.getId(), taille, c);
 
@@ -140,6 +128,10 @@ public class Main {
             }
         }
 
+        if (!isComplete)
+            for (char c : a1.alphabet())
+                a2.ajouteTransition(taille, taille, c);
+
         return a2;
     }
 
@@ -147,19 +139,26 @@ public class Main {
         System.out.println("--------------------------");
         System.out.println("Test de l'automate complété:");
         // création d'un automate avec deux états pour a*b+
+        Automate a = getAutomateAB();
+        a = automateComplete(a);
+
+        System.out.println(a);
+        System.out.println(a.estComplet());
+        System.out.println();
+        System.out.println(a.accepte(""));
+        System.out.println(a.accepte("ab"));
+        System.out.println(a.accepte("babaa"));
+        System.out.println(a.accepte("aaabbb"));
+    }
+
+    private static Automate getAutomateAB() {
         Automate a = new Automate(2);
         a.ajouteTransition(0, 0, 'a');
         a.ajouteTransition(0, 1, 'b');
         a.ajouteTransition(1, 1, 'b');
         a.setInitial(0, true);
         a.setAcceptant(1, true);
-        a = automateComplete(a);
-
-        System.out.println(a);
-        System.out.println(a.accepte(""));
-        System.out.println(a.accepte("ab"));
-        System.out.println(a.accepte("babaa"));
-        System.out.println(a.accepte("aaabbb"));
+        return a;
     }
 
     /********** Déterminisation **********/
@@ -174,8 +173,13 @@ public class Main {
     }
 
     public static Set<Integer> entierVersEnsemble(int i) {
-        // TODO !
-        return new HashSet<Integer>();
+        var res = new HashSet<Integer>();
+
+        while (i >= 0) {
+
+        }
+
+        return res;
     }
 
     // Calcul de l'automate déterministe correspondant à l'automate a1
