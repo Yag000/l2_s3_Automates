@@ -51,7 +51,7 @@ public class Automate {
     @Override
     public String toString() {
         String s = "" + this.etats.length + " etats;\n";
-        for (Etat e: getEtats()) {
+        for (Etat e : getEtats()) {
             s += e.toString() + "\n";
         }
         return s;
@@ -73,7 +73,7 @@ public class Automate {
     // Retourne l'ensemble des lettres utilisées dans l'automate.
     Set<Character> alphabet() {
         Set<Character> alph = new HashSet<Character>();
-        for (Etat e: getEtats())
+        for (Etat e : getEtats())
             alph.addAll(e.alphabet());
         return alph;
     }
@@ -81,7 +81,7 @@ public class Automate {
     // Retourne true si et seulement si l'automate est complet
     boolean estComplet() {
         Set<Character> alph = this.alphabet();
-        for (Etat e: getEtats())
+        for (Etat e : getEtats())
             if (!e.alphabet().equals(alph))
                 return false;
         return true;
@@ -89,8 +89,8 @@ public class Automate {
 
     // Pour true si et seulement si l'automate est déterministe
     boolean estDeterministe() {
-        for (Etat e: getEtats())
-            for (char a: e.alphabet())
+        for (Etat e : getEtats())
+            for (char a : e.alphabet())
                 if (e.succ(a).size() > 1)
                     return false;
         return true;
@@ -100,21 +100,21 @@ public class Automate {
     // pour une lettre donnée.
     Set<Integer> successeurEnsemble(Set<Integer> etatsActuels, char c) {
         Set<Integer> etatsSuivants = new HashSet<Integer>();
-        
+
         // On fait l'union des successeurs de chaque état de etatsActuels.
-        for (Integer id: etatsActuels) {
+        for (Integer id : etatsActuels) {
             Set<Integer> transition = etats[id].succ(c);
             if (transition != null)
                 etatsSuivants.addAll(transition);
         }
-        
+
         return etatsSuivants;
     }
 
     // Algorithme efficace d'acceptation d'un mot
     boolean accepte(String mot) {
         Set<Integer> etatsActuels = new HashSet<Integer>();
-        for(Etat e: getEtats())
+        for (Etat e : getEtats())
             if (e.estInitial)
                 etatsActuels.add(e.getId());
 
@@ -122,7 +122,7 @@ public class Automate {
             etatsActuels = successeurEnsemble(etatsActuels, mot.charAt(i));
         }
 
-        for (Integer id: etatsActuels)
+        for (Integer id : etatsActuels)
             if (etats[id].estAcceptant)
                 return true;
         return false;

@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class Main{
+public class Main {
 
     public static void exemple() {
 
@@ -14,7 +14,7 @@ public class Main{
         a.ajouteTransition(1, 1, 'b');
         a.setInitial(0, true);
         a.setAcceptant(1, true);
-        
+
         System.out.println(a);
         System.out.println(a.accepte(""));
         System.out.println(a.accepte("ab"));
@@ -22,8 +22,9 @@ public class Main{
         System.out.println(a.accepte("aaabbb"));
         // l'algorithme d'acceptation est efficace
         System.out.println(
-            a.accepte("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"));
-        
+                a.accepte(
+                        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"));
+
         System.out.println("--------------------------");
         System.out.println("Test de remplaceAParC:");
         Automate c = remplaceAParC(a); // Donne un automate pour c*b+
@@ -33,24 +34,24 @@ public class Main{
         System.out.println(c.accepte("cb"));
         System.out.println(c.accepte("cab"));
         System.out.println(c.accepte("ccbbb"));
-        
+
     }
 
     // Exemple:
     // remplace les 'a' par des 'c' dans toutes les transitions de l'automate a1
-    public static Automate remplaceAParC(Automate a1){
+    public static Automate remplaceAParC(Automate a1) {
         Automate a2 = new Automate(a1.nbEtats());
 
         for (int i = 0; i < a1.nbEtats(); ++i) {
             Etat e = a1.getEtat(i);
-            
+
             // On copie les états initiaux / acceptants
             a2.setInitial(i, e.estInitial);
             a2.setAcceptant(i, e.estAcceptant);
 
             // On copie les transitions
-            for (char c: e.alphabet()) {
-                for (int id: e.succ(c)) {
+            for (char c : e.alphabet()) {
+                for (int id : e.succ(c)) {
                     if (c == 'a')
                         // Si la transition est étiquetée par un 'a', on remplace par la même avec 'c'
                         a2.ajouteTransition(e.getId(), id, 'c');
@@ -63,19 +64,54 @@ public class Main{
         return a2;
     }
 
-    // Calcul de l'automate reconnaissant le miroir de a1 
+    // Calcul de l'automate reconnaissant le miroir de a1
     public static Automate automateMiroir(Automate a1) {
-        // TODO !
-        return new Automate(0);
+        int taille = a1.nbEtats();
+        Automate a2 = new Automate(taille);
+
+        for (int i = 0; i < taille; ++i) {
+
+            Etat e = a1.getEtat(i);
+
+            for (char c : e.alphabet()) {
+                for (int id : e.succ(c)) {
+                    a2.ajouteTransition(id, e.getId(), c);
+                }
+            }
+
+            a2.setInitial(i, e.estAcceptant);
+            a2.setAcceptant(i, e.estInitial);
+
+        }
+
+        return a2;
     }
 
     public static void testMiroir() {
         System.out.println("--------------------------");
         System.out.println("Test de l'automate miroir:");
-        System.out.println("A faire !");
+        // création d'un automate avec deux états pour a*b+
+        Automate a = new Automate(2);
+        a.ajouteTransition(0, 0, 'a');
+        a.ajouteTransition(0, 1, 'b');
+        a.ajouteTransition(1, 1, 'b');
+        a.setInitial(0, true);
+        a.setAcceptant(1, true);
+        a = automateMiroir(a);
+
+        System.out.println(a);
+        System.out.println(a.accepte("")); // false
+        System.out.println(a.accepte("ab")); // false
+        System.out.println(a.accepte("babaa")); // false
+        System.out.println(a.accepte("aaabbb")); // false
+        System.out.println();
+        System.out.println(a.accepte("")); // false
+        System.out.println(a.accepte("b")); // true
+        System.out.println(a.accepte("bbaa")); // true
+        System.out.println(a.accepte("bab")); // false
     }
 
-    // Calcul d'un automate correspondant à l'automate a1 complété 
+    // Calcul d'un automate correspondant à l'automate a1 complété
     public static Automate automateComplete(Automate a1) {
         // TODO !
         return new Automate(0);
@@ -98,7 +134,7 @@ public class Main{
         return new HashSet<Integer>();
     }
 
-    // Calcul de l'automate déterministe correspondant à l'automate a1 
+    // Calcul de l'automate déterministe correspondant à l'automate a1
     public static Automate automateDeterministe(Automate a1) {
         // TODO !
         return new Automate(0);
@@ -111,7 +147,7 @@ public class Main{
     }
 
     /********** Complémentaire **********/
-    // Calcul de l'automate complémentaire de l'automate a1 
+    // Calcul de l'automate complémentaire de l'automate a1
     public static Automate automateComplementaire(Automate a1) {
         // TODO !
         return new Automate(0);
@@ -124,14 +160,14 @@ public class Main{
     }
 
     /********** Automate Produit **********/
-    // Calcul de l'automate produit de a1 et a2 
+    // Calcul de l'automate produit de a1 et a2
     public static Automate automateProduit(Automate a1, Automate a2) {
         // TODO !
         return new Automate(0);
     }
 
     /********** Intersection **********/
-    // Calcul de l'automate reconnaissant l'intersection de L(a1) et L(a2) 
+    // Calcul de l'automate reconnaissant l'intersection de L(a1) et L(a2)
     public static Automate automateIntersection(Automate a1, Automate a2) {
         // TODO !
         return new Automate(0);
@@ -143,7 +179,7 @@ public class Main{
         System.out.println("A faire !");
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         exemple();
         // Pensez à tester vos fonctions !
         testMiroir();
