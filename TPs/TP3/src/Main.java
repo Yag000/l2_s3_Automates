@@ -104,6 +104,9 @@ public class Main {
         System.out.println(a.accepte("ab")); // false
         System.out.println(a.accepte("babaa")); // false
         System.out.println(a.accepte("aaabbb")); // false
+        System.out.println(
+                a.accepte(
+                        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")); // false
         System.out.println();
         System.out.println(a.accepte("")); // false
         System.out.println(a.accepte("b")); // true
@@ -161,8 +164,13 @@ public class Main {
 
     /********** Déterminisation **********/
     public static int ensembleVersEntier(Set<Integer> s) {
-        // TODO !
-        return 0;
+        int res = 0;
+
+        for (int i : s) {
+            res += 1 << i;
+        }
+
+        return res;
     }
 
     public static Set<Integer> entierVersEnsemble(int i) {
