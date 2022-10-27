@@ -113,14 +113,50 @@ public class Main {
 
     // Calcul d'un automate correspondant à l'automate a1 complété
     public static Automate automateComplete(Automate a1) {
-        // TODO !
-        return new Automate(0);
+        int taille = a1.nbEtats();
+        Automate a2 = new Automate(taille + 1);
+
+        for (int i = 0; i < taille; ++i) {
+            Etat e = a1.getEtat(i);
+
+            // On copie les états initiaux / acceptants
+            a2.setInitial(i, e.estInitial);
+            a2.setAcceptant(i, e.estAcceptant);
+
+            // On copie les transitions
+            for (char c : a1.alphabet()) {
+                if (e.alphabet().contains(c)) {
+                    for (int id : e.succ(c)) {
+                        a2.ajouteTransition(e.getId(), id, c);
+                    }
+                } else {
+                    a2.ajouteTransition(e.getId(), taille, c);
+
+                }
+
+            }
+        }
+
+        return a2;
     }
 
     public static void testComplete() {
         System.out.println("--------------------------");
         System.out.println("Test de l'automate complété:");
-        System.out.println("A faire !");
+        // création d'un automate avec deux états pour a*b+
+        Automate a = new Automate(2);
+        a.ajouteTransition(0, 0, 'a');
+        a.ajouteTransition(0, 1, 'b');
+        a.ajouteTransition(1, 1, 'b');
+        a.setInitial(0, true);
+        a.setAcceptant(1, true);
+        a = automateComplete(a);
+
+        System.out.println(a);
+        System.out.println(a.accepte(""));
+        System.out.println(a.accepte("ab"));
+        System.out.println(a.accepte("babaa"));
+        System.out.println(a.accepte("aaabbb"));
     }
 
     /********** Déterminisation **********/
