@@ -3,6 +3,32 @@ import java.util.Set;
 
 public class Main {
 
+    private static Automate getAutomateAB() {
+        Automate a = new Automate(2);
+        a.ajouteTransition(0, 0, 'a');
+        a.ajouteTransition(0, 1, 'b');
+        a.ajouteTransition(1, 1, 'b');
+        a.setInitial(0, true);
+        a.setAcceptant(1, true);
+        return a;
+    }
+
+    private static Automate getAutomateNonDeterministe() {
+        Automate a = new Automate(3);
+        a.ajouteTransition(0, 0, 'a');
+        a.ajouteTransition(0, 1, 'a');
+        a.ajouteTransition(0, 0, 'b');
+
+        a.ajouteTransition(1, 2, 'a');
+
+        a.ajouteTransition(2, 2, 'a');
+        a.ajouteTransition(2, 2, 'b');
+
+        a.setInitial(0, true);
+        a.setAcceptant(2, true);
+        return a;
+    }
+
     public static void exemple() {
 
         System.out.println("--------------------------");
@@ -151,23 +177,12 @@ public class Main {
         System.out.println(a.accepte("aaabbb"));
     }
 
-    private static Automate getAutomateAB() {
-        Automate a = new Automate(2);
-        a.ajouteTransition(0, 0, 'a');
-        a.ajouteTransition(0, 1, 'b');
-        a.ajouteTransition(1, 1, 'b');
-        a.setInitial(0, true);
-        a.setAcceptant(1, true);
-        return a;
-    }
-
     /********** Déterminisation **********/
     public static int ensembleVersEntier(Set<Integer> s) {
         int res = 0;
 
-        for (int i : s) {
+        for (int i : s)
             res += 1 << i;
-        }
 
         return res;
     }
@@ -175,22 +190,101 @@ public class Main {
     public static Set<Integer> entierVersEnsemble(int i) {
         var res = new HashSet<Integer>();
 
-        while (i >= 0) {
-
-        }
+        for (int j = 0; j < 32; j++)
+            if ((i & (1 << j)) != 0)
+                res.add(j);
 
         return res;
     }
 
+    public static void testEntierEnsemble() {
+
+        System.out.println("----------Test ensembleVersEntier----------");
+        var setTest = new HashSet<Integer>();
+        System.out.println(Integer.toBinaryString(ensembleVersEntier(setTest)));
+        setTest.add(0);
+        System.out.println(Integer.toBinaryString(ensembleVersEntier(setTest)));
+        setTest.add(2);
+        setTest.add(3);
+        System.out.println(Integer.toBinaryString(ensembleVersEntier(setTest)));
+        setTest.add(8);
+        setTest.add(17);
+        setTest.add(10);
+        System.out.println(Integer.toBinaryString(ensembleVersEntier(setTest)));
+
+        System.out.println("----------Test entierVersEnsemble----------");
+
+        System.out.println(entierVersEnsemble(0b0));
+        System.out.println(entierVersEnsemble(0b11));
+        System.out.println(entierVersEnsemble(0b10));
+        System.out.println(entierVersEnsemble(0b11100));
+        System.out.println(entierVersEnsemble(0b0000101101));
+        System.out.println(entierVersEnsemble(0b1111));
+
+    }
+
+    public static int getNextEtat(Automate a, int e, char c) {
+        var nextEtat = new HashSet<Integer>();
+
+        for (int id : entierVersEnsemble(e)) {
+            var successors = a.getEtat(id).succ(c);
+            if (successors != null) {
+                nextEtat.addAll(successors);
+            }
+        }
+
+        return ensembleVersEntier(nextEtat);
+    }
+
+    public static void updateEtat(int id, Automate a1, Automate a2, Set<Integer> acceptantStates) {
+
+        for (int i : entierVersEnsemble(id)) {
+            if (acceptantStates.contains(i)) {
+                a2.setAcceptant(id, true);
+                break;
+            }
+        }
+
+        for (char c : a1.alphabet()) {
+            int nextEtat = getNextEtat(a1, id, c);
+
+            a2.ajouteTransition(id, nextEtat, c);
+
+            if (a2.getEtat(nextEtat).alphabet() == null)
+                updateEtat(nextEtat, a1, a2, acceptantStates);
+
+        }
+    }
+
     // Calcul de l'automate déterministe correspondant à l'automate a1
+
     public static Automate automateDeterministe(Automate a1) {
-        // TODO !
-        return new Automate(0);
+        Automate a2 = new Automate(1 << a1.nbEtats());
+
+        var initialStates = new HashSet<Integer>();
+        var acceptantStates = new HashSet<Integer>();
+
+        for (Etat e : a1.getEtats()) {
+            if (e.estInitial)
+                initialStates.add(e.getId());
+            if (e.estAcceptant)
+                acceptantStates.add(e.getId());
+        }
+
+        updateEtat(ensembleVersEntier(initialStates), a1, a2, acceptantStates);
+        return a2;
+
     }
 
     public static void testDeterministe() {
         System.out.println("--------------------------");
         System.out.println("Test de l'automate déterministe:");
+        Automate a1 = getAutomateNonDeterministe();
+        System.out.println(a1);
+
+        Automate a2 = automateDeterministe(a1);
+        System.out.println(a2);
+
         System.out.println("A faire !");
     }
 
@@ -232,6 +326,7 @@ public class Main {
         // Pensez à tester vos fonctions !
         testMiroir();
         testComplete();
+        testEntierEnsemble();
         testDeterministe();
         testComplementaire();
         testIntersection();
