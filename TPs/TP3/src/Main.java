@@ -358,6 +358,9 @@ public class Main {
 
                 if (a1.getEtat(id1).estAcceptant && a2.getEtat(id2).estAcceptant)
                     a3.setAcceptant(e.getId(), true);
+                if (a1.getEtat(id1).estInitial && a2.getEtat(id2).estInitial)
+                    a3.setInitial(e.getId(), true);
+
             }
         }
 
