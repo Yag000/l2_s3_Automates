@@ -316,15 +316,52 @@ public class Main {
     /********** Automate Produit **********/
     // Calcul de l'automate produit de a1 et a2
     public static Automate automateProduit(Automate a1, Automate a2) {
-        // TODO !
-        return new Automate(0);
+        a1 = a1.estDeterministe() ? a1 : automateDeterministe(a1);
+        a2 = a2.estDeterministe() ? a2 : automateDeterministe(a2);
+
+        a1 = a1.estComplet() ? a1 : automateComplete(a1);
+        a2 = a2.estComplet() ? a2 : automateComplete(a2);
+
+        int nbEtats = a1.nbEtats() * a2.nbEtats();
+        Automate a3 = new Automate(nbEtats);
+
+        int m = a2.nbEtats();
+
+        for (int id = 0; id < nbEtats; id++) {
+            Etat e1 = a1.getEtat(id / m);
+            Etat e2 = a2.getEtat(id % m);
+
+            for (char c : a1.alphabet()) {
+
+                Set<Integer> nextEtat1 = e1.succ(c);
+                Set<Integer> nextEtat2 = e2.succ(c);
+
+                if (nextEtat1 != null && nextEtat2 != null) {
+                    int nextEtat = ensembleVersEntier(nextEtat1) * m + ensembleVersEntier(nextEtat2);
+                    a3.ajouteTransition(id, nextEtat, c);
+                }
+            }
+        }
+
+        return a3;
     }
 
     /********** Intersection **********/
     // Calcul de l'automate reconnaissant l'intersection de L(a1) et L(a2)
     public static Automate automateIntersection(Automate a1, Automate a2) {
-        // TODO !
-        return new Automate(0);
+        Automate a3 = automateProduit(a1, a2);
+
+        for (Etat e : a3.getEtats()) {
+            if (e.estAcceptant) {
+                int id1 = e.getId() / a2.nbEtats();
+                int id2 = e.getId() % a2.nbEtats();
+
+                if (a1.getEtat(id1).estAcceptant && a2.getEtat(id2).estAcceptant)
+                    a3.setAcceptant(e.getId(), true);
+            }
+        }
+
+        return a3;
     }
 
     public static void testIntersection() {
