@@ -1,6 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
+//TODO: add tests
 public class Main {
 
     private static Automate getAutomateAB() {
@@ -287,20 +288,29 @@ public class Main {
         Automate a2 = automateDeterministe(a1);
         System.out.println(a2);
 
-        System.out.println("A faire !");
     }
 
     /********** Complémentaire **********/
     // Calcul de l'automate complémentaire de l'automate a1
     public static Automate automateComplementaire(Automate a1) {
-        // TODO !
-        return new Automate(0);
+        Automate a2 = a1.estDeterministe() ? a1 : automateDeterministe(a1);
+        a2 = automateComplete(a2);
+
+        for (Etat e : a2.getEtats())
+            a2.setAcceptant(e.getId(), !e.estAcceptant);
+
+        return a2;
     }
 
     public static void testComplementaire() {
         System.out.println("--------------------------");
-        System.out.println("Test de l'automate complémentaire:");
-        System.out.println("A faire !");
+        System.out.println("Test de l'automate déterministe:");
+        Automate a1 = getAutomateNonDeterministe();
+        System.out.println(a1);
+
+        Automate a2 = automateComplementaire(a1);
+        System.out.println(a2);
+
     }
 
     /********** Automate Produit **********/
