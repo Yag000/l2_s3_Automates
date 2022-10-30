@@ -248,10 +248,12 @@ public class Main {
         for (char c : a1.alphabet()) {
             int nextEtat = getNextEtat(a1, id, c);
 
-            a2.ajouteTransition(id, nextEtat, c);
+            if (nextEtat != 0) {
+                a2.ajouteTransition(id, nextEtat, c);
 
-            if (a2.getEtat(nextEtat).alphabet() == null)
-                updateEtat(nextEtat, a1, a2, acceptantStates);
+                if (a2.getEtat(nextEtat).alphabet().size() == 0)
+                    updateEtat(nextEtat, a1, a2, acceptantStates);
+            }
 
         }
     }
