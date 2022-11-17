@@ -24,7 +24,7 @@ moustique = z+
 
   System.out.println("\n nombre de blabla = "+ compteBlabla);
   System.out.println("Taille moyenne d'un moustique: " + ((compteMoustique == 0) ?  0: tailleMoustiques/compteMoustique));
-  
+
 %eof}
 
 %%
