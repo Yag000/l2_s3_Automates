@@ -6,7 +6,7 @@
 
 %{
 public int count = 0;
-public int sum = 0;
+public double sum = 0;
 %}
 
 %{eof
@@ -16,8 +16,9 @@ public int sum = 0;
 %eof}
 
 chiffre = [0-9]
+nombre = ("+"|"-")?{chiffre}*("."{chiffre}*)?
 
 %%
-{chiffre}     {count++; sum += Integer.parseInt(yytext()); System.out.println(yytext());}
+{nombre}     {count++; sum += Double.parseDouble(yytext()); System.out.println(yytext());}
 
 [^]           {}

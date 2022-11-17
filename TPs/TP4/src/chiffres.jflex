@@ -10,7 +10,7 @@ public int sum = 0;
 %}
 
 %{eof
-	System.out.println("nbre des chiffres = "+ count);
+	System.out.println("nobre des chiffres = "+ count);
 	System.out.println("somme des chiffres = "+ sum);
 	System.out.println("moyenne des chiffres = "+ (count == 0 ? 0 : sum/count));
 %eof}
