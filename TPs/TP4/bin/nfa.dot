@@ -1,0 +1,18 @@
+digraph NFA {
+rankdir = LR
+3 [shape = doublecircle]
+5 [shape = doublecircle]
+7 [shape = doublecircle]
+0 -> 2 [style=dotted]
+0 -> 4 [style=dotted]
+0 -> 6 [style=dotted]
+1 -> 2 [style=dotted]
+1 -> 4 [style=dotted]
+1 -> 6 [style=dotted]
+2 -> 3 [label="{ ['0'-'9'] }"]
+4 -> 5 [label="{ [0-'/'][':'-1114111] }"]
+4 -> 5 [label="{ ['0'-'9'] }"]
+6 -> 7 [label="{ [0-'/'][':'-1114111] }"]
+6 -> 7 [label="{ ['0'-'9'] }"]
+}
+
