@@ -1,3 +1,5 @@
+## Ocaml
+
 *.annot
 *.cmo
 *.cma
@@ -28,6 +30,34 @@ setup.log
 # Local OPAM switch
 _opam/
 
-# VSCode
+## Java
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+## VS Code
 *.prettierrc
 .vscode/
+*settings.json
