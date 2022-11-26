@@ -158,8 +158,6 @@ let rec test_list_list list_list =
 ;;
 
 
-let de
-
 
 (* Main *)
 let () =
@@ -168,7 +166,4 @@ let () =
     List.iter (fun x -> print_word x ;
         print_string (" : ");
         if runNonDet automateA_last x then print_endline("True") else print_endline("False")) test_list
-    
-
-
 ;;
